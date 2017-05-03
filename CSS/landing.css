@@ -1,0 +1,40 @@
+nav h1{
+	
+	display: inline;
+	font-family: 'Bungee Inline', cursive;
+	padding: 3%;
+	text-align: center;
+}
+
+nav{
+	
+	width: 101%;
+	position: fixed;
+	box-shadow: 6px 5px 2px black;
+	margin-left: -1%;
+	display: block;
+	background-color: white;
+	margin-top: -1%;
+s	
+}
+
+body{
+	
+	width: 80%;
+	background-color: gray;	
+	height: auto;
+}
+
+.parabody{
+	z-index: 2;
+	margin-top: -50%;	
+	background-color: white;
+	
+}
+
+header{
+	z-index: -100;
+	width: 124%;
+	background-image: url('/Image/Banner.png');
+}
+
