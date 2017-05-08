@@ -46,7 +46,7 @@ body{
 	margin-top: -35%;	
 	background-color: white;
 	position: absolute;
-	width: 96%;
+	width: 96.4%;
 	margin-left: -1%;
 	padding: 2%;
 	
@@ -62,11 +62,11 @@ header img{
 footer{
 	
 	background-color: white;
-	width: 100%;
+	width: 102.4%;
 	height: 7%;
-	margin-left: -2%;
-	margin-top: -22%;
-	float: top;
+	margin-left: -1%;
+	margin-top: 0%;
+	text-align: center;
 }
 
 h1{
@@ -76,12 +76,12 @@ h1{
 }
 
 .parabody h1{
-	margin-left: -20%;
+	margin-left: 0%;
 	text-align: center;
 }
 body, html {
 	height: 100%;
-	width: 100%;
+	width: 99%;
 }
 
 .parallax { 
@@ -89,8 +89,8 @@ body, html {
     background-image: url("../Home/Images/Banner.png");
     /* Full height */
     height: 100%; 
-    width: 100%;
-    margin-left: -2%;
+    width: 102%;
+    margin-left: -0.6%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
