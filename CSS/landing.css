@@ -4,20 +4,36 @@ nav h1{
 	font-family: 'Bungee Inline', cursive;
 	padding: 3%;
 	text-align: center;
+	margin-top: 40%;
+	
 }
 
 nav{
-	
+	align: center;
+	padding-top: 4%;
 	width: 101%;
 	position: fixed;
 	box-shadow: 6px 5px 2px black;
 	margin-left: -1%;
 	display: block;
 	background-color: white;
-	margin-top: -1%;
-s	
+	margin-top: -3%;
+	height: 10%;
+
 }
 
+nav a{
+	
+	font-family: 'Bungee Inline', cursive;
+	text-decoration: none;	
+	color: black;
+}
+nav a:hover{
+	
+	font-family: 'Bungee Inline', cursive;
+	color: gray;
+		
+}
 body{
 	
 	width: 80%;
@@ -27,14 +43,58 @@ body{
 
 .parabody{
 	z-index: 2;
-	margin-top: -50%;	
+	margin-top: -35%;	
 	background-color: white;
+	position: absolute;
+	width: 96%;
+	margin-left: -1%;
+	padding: 2%;
 	
 }
 
-header{
+header img{
+	position: fixed;
+	margin-top: -10%;
+	margin-left: -1%;
 	z-index: -100;
-	width: 124%;
-	background-image: url('/Image/Banner.png');
+}
+
+footer{
+	
+	background-color: white;
+	width: 100%;
+	height: 7%;
+	margin-left: -2%;
+	margin-top: -22%;
+	float: top;
+}
+
+h1{
+	
+		font-family: 'Bungee Inline', cursive;
+	
+}
+
+.parabody h1{
+	margin-left: -20%;
+	text-align: center;
+}
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../Home/Images/Banner.png");
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+    margin-left: -2%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
