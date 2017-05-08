@@ -79,6 +79,32 @@ h1{
 	margin-left: 0%;
 	text-align: center;
 }
+
+.parabody p{
+	
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+.parabody td{
+	
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: -3%;
+	
+}
+
+.parabody th{
+	
+	padding-top: -5%;
+	
+}
+
+.parabody thead{
+	
+	padding-bottom: -5%;
+	
+}
 body, html {
 	height: 100%;
 	width: 99%;
