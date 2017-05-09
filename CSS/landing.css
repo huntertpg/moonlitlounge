@@ -5,6 +5,7 @@ nav h1{
 	padding: 3%;
 	text-align: center;
 	margin-top: 40%;
+	z-index: 102;
 	
 }
 
@@ -19,7 +20,7 @@ nav{
 	background-color: white;
 	margin-top: -3%;
 	height: 10%;
-
+	z-index: 100;
 }
 
 nav a{
@@ -124,3 +125,40 @@ body, html {
     background-size: cover;
 }
 
+.parallax2 { 
+    /* The image used */
+    background-image: url("../Home/Images/sectionimage1.jpeg");
+    /* Full height */
+    height: 30%;
+    width: 100.5%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-top: -6%;
+    margin-left: -1%;
+
+	
+}
+
+.imagesection img{
+	
+	z-index: -5;
+
+}
+
+.imagesection h1{
+	
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 7%;
+}
+.nonblur{
+	
+	-webkit-filter: blur(0px);
+    filter: blur(0px);
+	
+}
