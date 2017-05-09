@@ -1,0 +1,10 @@
+html {
+	font-family: 'Bungee Inline', cursive
+}
+nav h1 {
+	display:inline;
+	padding: 3%;
+	text-align: center;
+	margin-top: 40%;
+	z-index: 102;
+}
