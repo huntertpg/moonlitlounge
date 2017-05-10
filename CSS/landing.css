@@ -127,6 +127,25 @@ h1{
 	
 }
 
+.parabody h2{
+	
+		font-family: 'Bungee Inline', cursive;
+	
+}
+
+.parabody a{
+			font-family: 'Bungee Inline', cursive;
+	color: gray;
+	text-decoration: none;
+	
+	
+}
+
+.parabody a:hover{
+	
+	color: black;
+	
+}
 body, html {
 	height: 100%;
 	width: 99%;
