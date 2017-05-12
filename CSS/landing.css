@@ -199,13 +199,13 @@ body, html {
 }
 
 #imgSecBG2{
-	
+	margin-top: -1%;
 	background-image: url("../Home/Images/sectionimage1.jpeg");
 	z-index: -4;
 }
 
 #imgSecBG3{
-	margin-top: 50%;
+	margin-top: 80%;
 	background-image: url("../Home/Images/TypicalReload Banner.jpg")
 }
 .imagesection img{
