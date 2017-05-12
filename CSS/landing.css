@@ -44,7 +44,7 @@ body{
 
 .parabody{
 	z-index: 2;
-	margin-top: -35%;	
+	margin-top: -30%;	
 	background-color: white;
 	position: absolute;
 	width: 96.4%;
@@ -66,7 +66,7 @@ footer{
 	width: 102.4%;
 	height: 7%;
 	margin-left: -1%;
-	margin-top: 0%;
+	margin-top: 100%;
 	text-align: center;
 }
 
@@ -84,6 +84,12 @@ h1{
 .parabody p{
 	
 	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.pbody p{
+	
+	font-size: 18px;
 	
 }
 
@@ -104,6 +110,32 @@ h1{
 .parabody thead{
 	
 	padding-bottom: -5%;
+	
+}
+
+.parabody a{
+	
+	color: gray; 
+	text-decoration: none; 
+	font-family: 'Bungee Inline', cursive; 
+	
+}
+
+.parabody a:hover{
+	
+	color: black;
+	
+}
+
+.parabody h2{
+	
+	font-family: 'Bungee Inline', cursive;
+	
+}
+
+.parabody h3{
+	
+	font-family: 'Bungee Inline', cursive;
 	
 }
 
@@ -147,9 +179,8 @@ body, html {
 
 .parallax2 { 
     /* The image used */
-    background-image: url("../Home/Images/sectionimage1.jpeg");
     /* Full height */
-    height: 30%;
+    height: 50%;
     width: 100.5%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -163,6 +194,20 @@ body, html {
 	
 }
 
+#imgSecBG1{
+	
+}
+
+#imgSecBG2{
+	
+	background-image: url("../Home/Images/sectionimage1.jpeg");
+	z-index: -4;
+}
+
+#imgSecBG3{
+	margin-top: 50%;
+	background-image: url("../Home/Images/TypicalReload Banner.jpg")
+}
 .imagesection img{
 	
 	z-index: -5;
@@ -174,7 +219,7 @@ body, html {
 	color: white;
 	font-size: 36px;
 	text-align: center;
-	margin-top: 7%;
+	margin-top: 12%;
 }
 .nonblur{
 	
