@@ -6,7 +6,7 @@ nav h1{
 	text-align: center;
 	margin-top: 40%;
 	z-index: 102;
-	
+	font-size: 20px;
 }
 
 nav{
@@ -210,12 +210,12 @@ body, html {
 }
 
 #imgSecBG4{
-	margin-top: 150%;
+	margin-top: 160%;
 	background-image: url("../Home/Images/Creative.png");
 }
 
 #imgSecBG5{
-	margin-top: 170%;
+	margin-top: 185%;
 	background-image: url("../Home/Images/background.png");
 }
 .imagesection img{
@@ -239,7 +239,7 @@ body, html {
 }
 
 .button {
-  margin-left: 50%;	
+  margin-left: 100%;	
   border-radius: 4px;
   background-color: #f4511e;
   border: none;
@@ -266,7 +266,7 @@ body, html {
   opacity: 0;
   top: 0;
   right: -20px;
-  top:35px;
+  top:55px;
   transition: 0.5s;
 }
 
