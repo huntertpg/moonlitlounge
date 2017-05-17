@@ -37,5 +37,27 @@ form {
 	color: white;
 }
 body {
+	
 	background-image: url("../Home/Images/Banner.png");
 }
+
+input{
+	
+	background-color: #c1c1c1;
+	
+}
+
+
+label{
+	
+	color: black;
+	
+}
+
+legend{
+	
+	color: black;
+	
+}
+
+	

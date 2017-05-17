@@ -66,8 +66,11 @@ footer{
 	width: 102.4%;
 	height: 7%;
 	margin-left: -1%;
-	margin-top: 100%;
+	padding-top: 2%;
+	margin-top: 225%;
 	text-align: center;
+	z-index: -2000;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 h1{
